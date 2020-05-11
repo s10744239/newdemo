@@ -1,0 +1,73 @@
+.view {
+   width: 500px;
+   height: 650px;
+   margin: 10px;
+   float: left;
+   border: 10px solid white;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 2px 2px 5px black;
+   -moz-box-shadow: 2px 2px 5px black;
+   box-shadow: 2px 2px 5px black;
+   cursor: default;
+   background: black url(../images/bgimg.jpg) no-repeat center center;
+}
+
+.view .mask,.view .content {
+   width: 500px;
+   height: 650px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   color: black;
+   text-align: center;
+   position: top:300px;
+   font-size: 50px;
+   padding: 10px;
+   background: rgba(255, 255, 255, 0);
+   margin: 250px 0 0 0;
+}
+.view2 {
+   width: 500px;
+   height: 375px;
+   margin: 10px;
+   float: left;
+   border: 10px solid white;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 2px 2px 5px black;
+   -moz-box-shadow: 2px 2px 5px black;
+   box-shadow: 2px 2px 5px black;
+   cursor: default;
+   background: black url(../images/bgimg.jpg) no-repeat center center;
+}
+.view2 .mask,.view .content {
+   width: 500px;
+   height: 650px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view2 img {
+   display: block;
+   position: relative;
+}
+.view2 h2 {
+   color: black;
+   text-align: center;
+   position: top:100px;
+   font-size: 50px;
+   padding: 10px;
+   background: rgba(255, 255 255, 0);
+   margin: 100px 0 0 0;
+}

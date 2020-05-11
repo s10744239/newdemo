@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>zzc個人網頁</title>
+</script>
+ <style type="text/css">
+   @import url(css/css.css);
+  @import url(css/fly.css);
+  @import url(css/ul.css);
+   @import url(css/image.css);
+
+  img.big:hover {height: 60px;
+                 width: 60px; }
+  #top-bar{
+   
+   width:100%;
+   height:50px;
+   background:#32b3bf;
+   position:fixed;
+   top:0px;
+}
+
+  .cc{
+    border-radius:50px;
+    }
+
+
+div.ch{
+      columns:2 ;
+      column-gap:2cm;
+      padding:2cm 3cm;
+    }
+
+</style>
+
+<script type="text/javascript">
+  $(function(){
+  // 幫 a.gotoheader 加上 click 事件
+  $('a.gotoheader').click(function(){
+    // 讓捲軸移動到 0 的位置
+    $('html, body').scrollTop(0);
+ 
+    return false;
+  });
+});
+</script>
+ 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</head>
+
+
+<link rel="icon" href="image/logo1.png" type="image/x-icon" / >
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+
+
+
+
+
+<body>
+
+  <div class="top"></div>
+<div class="topNav" > 
+  <h1 class="fly">
+        <div class="col-md-12 column" > 
+    
+          <a href="index.html"><img src="image/logo.png" / width="200"></a>
+          <img  src="image/cat.png"/ width="190" onMouseOver="this.src='image/cat4.png';" onMouseOut="this.src='image/cat.png'; ">
+          <img  src="image/cat2.png"/ width="190" onMouseOver="this.src='image/cat5.png';" onMouseOut="this.src='image/cat2.png'; ">
+          <img  src="image/cat3.png"/ width="150" onMouseOver="this.src='image/cat6.png';" onMouseOut="this.src='image/cat3.png'; ">
+          <img  src="image/cat.png"/ width="190" onMouseOver="this.src='image/cat4.png';" onMouseOut="this.src='image/cat.png'; ">
+          <img  src="image/cat2.png"/ width="190" onMouseOver="this.src='image/cat5.png';" onMouseOut="this.src='image/cat2.png'; ">
+          <img  src="image/cat3.png"/ width="150" onMouseOver="this.src='image/cat6.png';" onMouseOut="this.src='image/cat3.png'; ">
+      
+        </div>
+  </h1>  
+</div>
+
+
+
+
+  <div id="top-bar" style="z-index: 2;">
+   <div class="header" >    
+    <div id="menu">
+      
+      <ul >
+         <li> <a href="#my1">個人資料</a>
+
+        <li> <a href="#my2">學習背景</a>
+
+        <li> <a href="#my3">社團經驗</a>
+
+        <li> <a href="#my4">工作經驗</a>
+
+        <li> <a href="#my5">興趣</a>
+
+        <li> <a href="#my6">目標</a>
+          
+        <li> <a href="#my7">四年期許</a>
+          
+       
+      </div>                          
+    </div>
+  </div>
+
+
+
+
+ <a href="#" class="gotoheader" style="position:fixed;bottom:0%;right:2%;z-index:2;"> <img  src="image/cat7.png"/ width="200" onMouseOver="this.src='image/cat8.png';" onMouseOut="this.src='image/cat7.png'; ">&nbsp;</a>
+
+
+
+<div class="wrapper">
+  <div class="content" >
+<div id="frame">
+ 
+    <a id="a1" class="num"></a>
+    <a id="a2" class="num"></a>
+    <a id="a3" class="num"></a>
+ 
+    <div id="photos" class="play">
+        <img src="image/i1.jpg" >
+        <img src="image/i2.jpeg" >
+        <img src="image/i3.jpg" >
+       
+        
+    </div>
+</div>
+  </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+    <div style="position: top:800px;line-height:80px;font-size:30px;font-family:微軟正黑體;">
+           <div id="my1"><br>
+           <div style="font-size:50px;"><b>個人資料</b><br></div>
+
+          <img class="cc" src="image/my.jpg" style="width:500px ;float:left;"/>
+         <div class="cc" style="width: 700px;height: 375px; float:right; background:rgba(255,255,255,0.5)">
+          &nbsp;&nbsp; &nbsp;&nbsp;姓名:莊智丞  性別: 男<br>
+          &nbsp;&nbsp; &nbsp;&nbsp;系級學號: 資管二乙 10744239<br>
+          &nbsp;&nbsp; &nbsp;&nbsp;生日: 1999/10/22<br>
+          &nbsp;&nbsp; &nbsp;&nbsp;聯絡資訊:&nbsp;<a href="https://www.facebook.com/profile.php?id=100004938907781" ><img src="image/fb.png" width="50"/ class="big"></a>&nbsp;
+          <a href="https://instagram.com/zhuang_zhicheng?igshid=18p3tahsybi9a"><img src="image/ig.png"width="50"/ class="big"></a>&nbsp;
+          </div>
+          <br><br><br><br>
+          </div>
+
+            <div id="my2"><br>
+              <div class="cc" style="background:rgba(255,255,255,0.5);">
+           <div style="font-size:50px;" ><b>&nbsp;&nbsp;學習背景</b><br></div>
+          <center>
+          <img src="image/s1.png" style="width:80px"/>新明國小
+          <img src="image/s5.png" style="width:80px"/>
+          <img src="image/s2.jfif" style="width:80px"/>新明國中
+          <img src="image/s5.png" style="width:80px"/>
+            <img src="image/s3.jfif" style="width:80px"/>中壢高商
+            <img src="image/s5.png" style="width:80px"/>
+            <img src="image/s4.png" style="width:80px"/>中原大學
+          </center>
+            </div>
+            </div>
+        
+           
+          <div id="my3"><br>
+             <div class="cc" style="background:rgba(255,255,255,0.5);">
+           <div style="font-size:50px;" ><b>&nbsp;&nbsp;社團活動經驗</b><br></div> 
+           <center>
+           <img src="image/h1.png" style="width:100px"/>童軍社
+           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <img src="image/h2.png" style="width:100px"/>吉他社
+          </center>
+        </div>
+            </div>
+            
+          <div id="my4"><br>
+             <div class="cc" style="background:rgba(255,255,255,0.5);">
+           <div style="font-size:50px;" ><b>&nbsp;&nbsp;工作經驗</b><br></div>
+           <center>
+           <img src="image/pt2.png" style="width:100px"/>飯店服務生
+           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <img src="image/pt1.png" style="width:100px"/>手搖飲料門市人員
+            </center>
+          </div>
+        </div>
+
+            <div id="my5"><br>
+               <div class="cc" style="background:rgba(255,255,255,0.5);">
+            <div style="font-size:50px;" ><b>&nbsp;&nbsp;興趣</b><br></div>
+            <center>
+           <img src="image/yy1.png" style="width:100px"/>看影片
+           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <img src="image/yy2.png" style="width:100px"/>賺錢
+          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <img src="image/cat4.png" style="width:100px"/>貓
+            </center>
+          </div>
+        </div>
+
+             <div id="my6"><br>
+               <div class="cc" style="background:rgba(255,255,255,0.5);">
+             <div style="font-size:50px;" ><b>&nbsp;&nbsp;目標</b><br></div>&nbsp;&nbsp;
+              希望可以自己當老闆、賺大錢、發大財、不愁吃穿環遊世界!
+              </div>
+            </div>
+
+             <div id="my7"><br>
+               <div class="cc" style="background:rgba(255,255,255,0.5);">
+             <div style="font-size:50px;" ><b>&nbsp;&nbsp;大學四年期許</b><br></div>&nbsp;&nbsp;
+              希望我可以好好的利用還是學生的時間，當然是希望每一個科目都可以順利通過，然後加強<br>&nbsp;&nbsp;
+              自己的英文能力，和學習更多領域的東西，像是投資之類的東西，也希望可以在讀書之餘去<br>&nbsp;&nbsp;打工存點錢，增加一些社會經驗，使我在出社會時可以有一點資本讓我可以去做運用，然後<br>&nbsp;&nbsp;我就可以自己當老闆、賺大錢、發大財、不愁吃穿環遊世界了!YA!
+            <br>
+          </div>
+        </div>
+
+        <div class="ch">
+        
+              
+
+                <div class="view view-first">
+                    <img src="image/l1.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>兩隻貓</h2>
+                    </div>
+                </div>  
+                  
+                 <div class="view view-first">
+                    <img src="image/l3.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>一拳超人</h2>
+                    </div>
+                </div> 
+                <div class="view2 view-first">
+                    <img src="image/l8.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>YA</h2>
+                    </div>
+                </div> 
+                 <div class="view view-first">
+                    <img src="image/l4.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>我家</h2>
+                    </div>
+                </div> 
+                    
+                 <div class="view view-first">
+                    <img src="image/l5.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>半身模特</h2>
+                    </div>
+                </div> 
+                
+                <div class="view2 view-first">
+                    <img src="image/l6.jpg" style="width: 500px"/>
+                    <div class="mask">
+                        <h2>熱爆</h2>
+                    </div>
+                </div> 
+            </div>
+          
+    </div>
+
+
+
+
+
+
+  </div>
+
+<div class="footer" style="z-index:0;">
+ <br><br>
+ <a href="https://www.facebook.com/profile.php?id=100004938907781" ><img src="image/fb.png" width="50"/ class="big"></a>&nbsp;
+ <a href="https://instagram.com/zhuang_zhicheng?igshid=18p3tahsybi9a"><img src="image/ig.png"width="50"/ class="big"></a>&nbsp;
+ Copyright © 2020.5 Designed by 莊智丞 
+
+
+</div>
+
+</body>
+</html>
